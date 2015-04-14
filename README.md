@@ -13,11 +13,7 @@ The service we are calling has one endpoint "/hello" which returns the following
 
 It's useful to stub out the service so we can test against known data, wiremock enables us to spin up an API for the duration of our tests so we can test our application with real HTTP calls without needing mocks within our project.
 
-Look at test/clj_wiremock_example/handler_test.clj
-
-- Creates and starts wiremock server before all tests
-- Resets state before each test
-- Stops server after all tests
+Look at [test/clj_wiremock_example/handler_test.clj](https://github.com/alexanderjamesking/clj-wiremock-example/blob/master/test/clj_wiremock_example/handler_test.clj)
 
 Run ```lein test``` to see the tests in action.
 
